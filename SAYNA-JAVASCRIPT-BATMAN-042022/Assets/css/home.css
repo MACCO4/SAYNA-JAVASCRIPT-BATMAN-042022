@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+@font-face{
+    font-family: 'Rajdhani', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');;
+}
+@font-face {
+    font-family: 'Space Grotesk', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');;
+}
+
+                                    /*Géneral*/
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    color:  #ffffff;
+}
+                                    /*HEADER: NAV & INTRO*/
+#nav {
+    background-image: url("../Illustrations/Home/Bathome1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    padding: 0.6rem;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.logo:hover {
+    background: #F8F184;
+    cursor: pointer;
+}
+.borderStyle {
+    border-style: groove;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-color: #C4C4C4;
+    border-left-width: 0.8px;
+    border-right-width: 3px;
+}
+.intro{
+    padding-top: 5rem;
+    text-align: center;
+}
+.right {
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 10rem;
+}
+.intro b {
+    font-size: 1.5rem;
+}
+.boutton {
+    padding-top: 1.5rem;
+}
+.bouttonHead {
+    background-image:linear-gradient(to right, #EDDEBF, #890008);
+    border: none;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.iconesMedia {
+    position: relative;
+    float: right;
+    margin-top: 10rem;
+    padding-top: -2rem;
+    margin-right: -13%;
+}
+.flècheDown {
+    margin-top: 6%;
+}
+                                        /*MAIN*/
+        /*Sect°: BATMAN AU CINEMA*/
+.background {
+    background-color: #000000;
+}
+.aligntxt {
+    text-align: justify;
+    margin-right: 20%;
+}
+.figure {
+    z-index: 4;
+}
+.figcaption {
+    border: 2px hidden white;
+    border-radius: 75px;
+    width: 90%;
+    height: 80px;
+    z-index: 3;
+    margin-top: -4rem;
+    overflow: visible;
+    background-image: linear-gradient(to right,  #EDDEBF, #890008);
+}
+.figcaption p {
+    font-size:12px;
+    text-align: right;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+.yelowtxt {
+    color: #F8F184;
+    font-size: smaller;
+}
+.img {
+    z-index: 0;
+}
+.box {
+    z-index: 1;
+    position: relative;
+    margin-top: -42%;
+    border: 2px solid #837c7c;
+    border-bottom: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+.BatCard {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.card {
+    overflow: hidden;
+}
+                /*Sect°: CAROUSSEL*/
+.imgSlide {
+    z-index: -1;
+}
+.borderStyle2 {
+    border-style: groove;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-color: #C4C4C4;
+    border-left-width: 0.8px;
+    border-right-width: 3px;
+}
+.boxvide {
+    z-index: 1;
+    margin-top: -80%;
+}
+
+.font {
+    font-size: smaller;
+    padding-left: 26px;
+    margin-bottom: 0;
+    margin-top: -2px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+                /*Sect°: MULTIMEDIA*/
+.multbox {
+    height: 10%;
+    width: 100%;
+}
+.iconeFleche2 {
+    padding-left: 8rem;
+}
+.multbox {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.slideCenter {
+    align-items: center;
+}
+.sizetext1 {
+    font-size: 10px;
+    font-weight: bold;
+}
+.sizetext2 {
+    font-size: 18px;
+    display: flex;
+    align-self: center;
+}
+.sizetext3 {
+    font-size: 15px;
+}
+.sizetext {
+    font-size: 10px;
+    margin-top: 0;
+}
+.description {
+    background-color: linear-gradient(to top, #EDDEBF #19587d 0.4);
+}
+.imgbatHome {
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+.BDslide {
+    margin: 8% 0;
+}
+.bgslide {
+    background-color: #404f58;
+}
+.textTransf {
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.PopBox {
+    width: 50%;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#404f58;
+    border-radius: 5%;
+}
+
+                                        /*FOOTER*/
+.bgFoot {
+    background-color: #000000;
+}
+.float1 {
+   align-items: center;
+   justify-content: center;
+}
+.size {
+    font-size: smaller;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.footerLogo {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerLogo .yelow:hover {
+    color: #F8F184;
+    cursor: pointer;
+}
+
+
+
+
