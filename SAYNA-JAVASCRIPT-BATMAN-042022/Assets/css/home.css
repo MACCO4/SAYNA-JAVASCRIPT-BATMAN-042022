@@ -28,13 +28,31 @@
     height: 100%;
 }
 
-.menu{
+.menu1{
     padding: 0.6rem;
     color: #ffffff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.menu2{
+    padding: 0.6rem;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+}
+.menu1:hover{
+    padding: 0.6rem;
+    color: #F8F184;
     font-weight: bolder;
+    text-decoration: underline;
+}
+.menu2:hover{
+    padding: 0.6rem;
+    color: #F8F184;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 .logo:hover {
-    background: #F8F184;
     cursor: pointer;
 }
 .borderStyle {
@@ -64,7 +82,13 @@
     background-image:linear-gradient(to right, #EDDEBF, #890008);
     border: none;
     text-transform: uppercase;
-    opacity: 0.6;
+    opacity: 0.4;
+}
+.bouttonHead:hover {
+    background-image:linear-gradient(to right, #EDDEBF, #890008);
+    border: none;
+    text-transform: uppercase;
+    opacity: 1;
 }
 .iconesMedia {
     position: relative;
